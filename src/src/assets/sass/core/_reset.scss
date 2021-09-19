@@ -1,0 +1,89 @@
+/**********************************
+******          CSS reset 
+**********************************/
+
+// Box sizing
+html {
+  box-sizing: border-box;
+}
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+// Blocks
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+// Anchors
+a {
+  color: inherit;
+  text-decoration: inherit;
+  outline: none;
+}
+
+// Buttons
+button {
+  outline: none;
+  border: none;
+}
+
+// List
+ul {
+  list-style: none;
+}
+
+// Form
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+// Iframe
+iframe {
+  border: 0;
+}
+
+// Table
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  &:not([align]) {
+    text-align: inherit;
+  }
+}
